@@ -3,7 +3,8 @@
 // convenience to get you started writing code faster.
 //
 
-const TO_MILISECONDS = 60000;// 60 (quantite of seconds in a minute) * 1000 (to get in the miliseconds)
+const TO_MILISECONDS = 60000;
+// 60 (quantite of seconds in a minute) * 1000 (to get in the miliseconds)
 
 export class Clock {
   constructor(hour, minutes = 0) {
